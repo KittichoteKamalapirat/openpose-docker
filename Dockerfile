@@ -1,5 +1,5 @@
 # https://hub.docker.com/r/cwaffles/openpose
-FROM nvidia/cuda:11.4.0-cudnn8-devel-ubuntu18.04
+FROM nvidia/cuda:11.8.0-cudnn8-devel-ubuntu18.04
 
 #get deps
 RUN apt-get update && \
